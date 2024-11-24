@@ -32,14 +32,23 @@ To get started, you will need an API key from Grok. Follow these steps:
 - Visit Grok API Keys to create and obtain an API key,get an API_KEY from here: https://console.groq.com/keys.
 - In your project folder, navigate to the .env file and update it with your API key:
 Grok_API_KEY=<your-api-key>
-2. Install Dependencies
-- Install the required libraries and dependencies by running the following command in your terminal:
+
+
+2. Create a virtual environment:
+    ```commandline
+    python -m venv .venv
+    ```
+3. Activate Virtual environment:
+    ```commandline
+    .venv\Scripts\activate
+    ```
+  
+3. Install the required libraries and dependencies by running the following command in your terminal:
     ```commandline
      pip install -r requirements.txt
     ```
-3. Run the Streamlit App
-After setting up the environment and installing dependencies, you can launch the app with this command:
-   ```commandline
+4. After setting up the environment and installing dependencies, you can launch the app with this command:
+ ```commandline
    streamlit run main.py
    ```
 
