@@ -1,10 +1,10 @@
-﻿# 📧 Cold Email Generator Using LangChain Framework with Grok API Integration
-This project leverages the LangChain framework to generate personalized cold emails and integrates with the Grok API for efficient handling of email data and automation of workflows. The application creates tailored email content for job applications, business outreach, or any context where personalized communication is needed.
+﻿# 📧 Cold Email Generator Using LangChain Framework with Groq API Integration
+This project leverages the LangChain framework to generate personalized cold emails and integrates with the Groq API for efficient handling of email data and automation of workflows. The application creates tailored email content for job applications, business outreach, or any context where personalized communication is needed.
 
 **Key Features:**
 - Dynamic Email Generation: Powered by LangChain's NLP capabilities, the tool creates context-aware email content based on the job description and recipient details.
 
-- Grok API Integration: Manages email-specific workflows and enhances operational efficiency.
+- Groq API Integration: Manages email-specific workflows and enhances operational efficiency.
 
 - Personalization: The emails can include personalized content, such as portfolio links, relevant job details, and more, for a more engaging communication experience.
 
@@ -15,7 +15,7 @@ This project leverages the LangChain framework to generate personalized cold ema
 **Technologies Used:**
 - LangChain Framework: Used for creating dynamic and context-aware email content using NLP techniques.
 
-- Grok API: Provides backend capabilities for managing email workflows, storing relevant data, and optimizing email interactions.
+- Groq API: Provides backend capabilities for managing email workflows, storing relevant data, and optimizing email interactions.
 
 - Python & Streamlit: Python is used for backend development, while Streamlit powers the interactive web interface for users to generate cold emails.
 
@@ -26,10 +26,10 @@ This project leverages the LangChain framework to generate personalized cold ema
 
 
 **Set-up Instructions:**
-1. Obtain Grok API Key
-To get started, you will need an API key from Grok. Follow these steps:
+1. Obtain Groq API Key
+To get started, you will need an API key from Groq. Follow these steps:
 
-- Visit Grok API Keys to create and obtain an API key,get an API_KEY from here: https://console.groq.com/keys.
+- Visit Groq API Keys to create and obtain an API key,get an API_KEY from here: https://console.groq.com/keys.
 - In your project folder, navigate to the .env file and update it with your API key:
 Grok_API_KEY=<your-api-key>
 
