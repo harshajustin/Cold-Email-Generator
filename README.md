@@ -4,7 +4,7 @@ This project leverages the LangChain framework to generate personalized cold ema
 **Key Features:**
 - Dynamic Email Generation: Powered by LangChain's NLP capabilities, the tool creates context-aware email content based on the job description and recipient details.
 
-- Grok API Integration: Manages email-specific workflows and enhances operational efficiency by interacting with the email database and automating tasks.
+- Grok API Integration: Manages email-specific workflows and enhances operational efficiency.
 
 - Personalization: The emails can include personalized content, such as portfolio links, relevant job details, and more, for a more engaging communication experience.
 
@@ -18,8 +18,13 @@ This project leverages the LangChain framework to generate personalized cold ema
 - Grok API: Provides backend capabilities for managing email workflows, storing relevant data, and optimizing email interactions.
 
 - Python & Streamlit: Python is used for backend development, while Streamlit powers the interactive web interface for users to generate cold emails.
+
+
 ![website.png](images/website.png)
+
 ![mail.png](images/mail.png)
+
+
 **Set-up Instructions:**
 1. Obtain Grok API Key
 To get started, you will need an API key from Grok. Follow these steps:
@@ -35,14 +40,11 @@ Grok_API_KEY=<your-api-key>
 3. Run the Streamlit App
 After setting up the environment and installing dependencies, you can launch the app with this command:
    ```commandline
-   streamlit run app/main.py
+   streamlit run main.py
    ```
 
 This will open the application in your browser where you can begin generating cold emails.
 
-Use Cases:
-- Business Development: Allows business development teams to send personalized outreach emails at scale.
-
-- Marketers: A great tool for marketers to automate email campaigns and generate content that resonates with potential customers.
-
-- Startups/SMEs: Provides an efficient and automated way to handle email outreach without needing extensive resources.# Cold-Email-Generator
+**Use Cases:**
+- Job Seekers: Allows individuals to generate personalized cold emails for job applications based on job descriptions from company career pages, with the option to include portfolio links.
+- Marketing Professionals: Automates the process of creating personalized emails for various outreach campaigns, saving time and effort in crafting each email manually.
