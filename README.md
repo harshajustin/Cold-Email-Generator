@@ -48,7 +48,7 @@ Grok_API_KEY=<your-api-key>
      pip install -r requirements.txt
     ```
 4. After setting up the environment and installing dependencies, you can launch the app with this command:
- ```commandline
+   ```commandline
    streamlit run main.py
    ```
 
